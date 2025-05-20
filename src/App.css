@@ -1,0 +1,63 @@
+.app-container {
+  background-color: #191414;
+  color: #000;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  color: #00BFFF;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 20px;
+  border:none;
+  width: 300px;
+  font-size: 16px;
+  
+  
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #A8FF60;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.movie-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+}
+
+.movie-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.header3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
